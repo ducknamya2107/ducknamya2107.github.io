@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="sp.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="img/logo_coolmate.png" alt="" width="100px">
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="home.html">Sản phẩm</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="ctSanPham.html">Đồ lót</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="ctSanPham.html">Mặc hàng ngày</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="ctSanPham.html">Đồ thể thao</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="ctSanPham.html">Care&Share</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list-icon">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass" style="color: aliceblue;"></i>
+            </div>
+            <div class="search-bar">
+               <a href=""><p>Tìm sản phẩm...</p></a>
+            </div>
+            <div class="user">
+                <a href=""><i class="fa-solid fa-user" style="color: aliceblue;"></i></a>
+            </div>
+            <div class="bag">
+                <a href=""><i class="fa-solid fa-bag-shopping" style="color: aliceblue;"></i></a>
+            </div>
+        </div>
+    </header>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+<main>
+    <br>
+    <div class="container-box">
+        <div class="box-left">
+            <h2>Thông Tin Vận Chuyển</h2>
+            <br>
+            <br>
+            <div class="thontinvanchuyen">
+            <input type="text" placeholder="Họ Tên">
+            <input type="text" id="sdt" placeholder="Số điện thoại">
+            <br>
+            <input type="email" id="email" placeholder="Email">
+            <br>
+            <input type="text" id="location" placeholder="Địa chỉ cụ thể">
+            <br>
+            <select name="" id="">
+                <option value="" id="provice">Hà Nội</option>
+                <option value="">Hồ Chí Minh</option>
+                <option value="">Bắc Ninh</option>
+                <option value="">Bắc Giang</option>
+                <option value="">Hưng Yên</option>
+                <option value="">Thái Nguyên</option>
+                <option value="">Quảng Ninh</option>
+                <option value="">Hải Phòng</option>
+                <option value="">Nam Định</option>
+                <option value="">Hà Nam</option>
+                <option value="">Lào Cai</option>
+                <option value="">Sơn La</option>
+                <option value="">Hà Giang</option>
+                <option value="">Vĩnh Phúc</option>
+                <option value="">Thanh Hóa</option>
+                <option value="">Nghệ An</option>
+                <option value="">Vũng Tàu</option>
+                <option value="">Đà Nẵng</option>
+                <option value="">Đà Lạt</option>
+                <option value="">Quảng Nam</option>
+                <option value="">Quảng Ngãi</option>
+                <option value="">Bình Dương</option>
+            </select>
+            <select name="" id="provice">
+                <option value="">Chọn Quận/Huyện</option>
+                <option value="">Mỹ Đức</option>
+                <option value="">Phú Xuyên</option>
+                <option value="">Phúc Thọ</option>
+                <option value="">Ba Vì</option>
+                <option value="">Chương Mỹ</option>
+                <option value="">Gia Lâm</option>
+                <option value="">Hoài Đức</option>
+                <option value="">Mê Linh</option>
+                <option value="">Mỹ Đình</option>
+                <option value="">Cầu Giấy</option>
+                <option value="">Thanh Xuân</option>
+                <option value="">Hà Đông</option>
+                <option value="">Ba Đình</option>
+                <option value="">Hoàng Mai</option>
+                <option value="">Thanh Oai</option>
+                <option value="">Bắc Từ Liêm</option>
+                <option value="">Nam Từ Liêm</option>
+                <option value="">Tây Hồ</option>
+                <option value="">Hoàn Kiếm</option>
+                <option value="">Long Biên</option>
+                <option value="">Đống Đa</option>
+                <option value="">Ứng Hòa</option>
+                <option value="">Gia Lâm</option>
+            </select>
+            <select name="" id="provice">
+                <option value="">Chọn Phường/Xã</option>
+                <option value="">Cầu Diễn</option>
+                <option value="">Mễ Trì</option>
+                <option value="">Mỹ Đình 1</option>
+                <option value="">Mỹ Đình 2</option>
+                <option value="">Phú Đô</option>
+                <option value="">Phương Canh</option>
+                <option value="">Trung Văn</option>
+                <option value="">Tây Mỗ</option>
+                <option value="">Xuân Phương</option>
+                <option value="">Đại Mỗ</option>
+            </select>
+            <br>
+            <input type="text" id="comment" placeholder="Ghi chú thêm">
+            </div>
+            <br>
+            
+            <h2>Hình Thức Thanh Tóan</h2>
+            <br>
+            <br>
+            <div class="pay">
+                <div class="boxpay">
+                    <input type="radio" id="payinput" ><img src="img/psg1 (1).svg" alt="" width="5%">
+                    <p class="boxten">COD ( Thanh toán khi nhận hàng)</p>
+                </div>
+                <div class="boxpay">
+                    <input type="radio" id="payinput" ><img src="img/momo.png" alt="" width="5%">
+                    <p class="boxten">Thanh toán MOMO</p>
+                </div>
+                
+                <div class="boxpay">
+                    <input type="radio" id="payinput" ><img src="img/vnpay.png" alt=""width="5%">
+                    <p class="boxten">Thanh toán ngân hàng/Thẻ tín dụng</p>
+                </div>
+                <div class="boxpay">
+                    <input type="radio" id="payinput" ><img src="img/psg1.svg" alt=""width="5%">
+                    <p class="boxten">Thanh toán ZaloPay</p>
+                </div>
+                
+                <div class="boxpay">
+                    <input type="radio" id="payinput" ><img src="img/shopeepay.png" alt=""width="5%">
+                    <p class="boxten">Thanh toán ShopeePay</p>
+                </div>
+                
+                <div class="boxpay">
+                    <input type="radio" id="payinput" ><img src="img/qr.jpg" alt="" width="45px">
+                    <p class="boxten">Chuyển khoản liên ngân hàng bằng QR code</p>
+                </div>
+                <input type="button" id="thanhtoan" value="Thanh Toán">
+                
+    
+                
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="box-right">
+            <h2>Giỏ hàng</h2>
+            <br>
+            <br>
+            <div class="giohang">
+                <div class="boxtop">
+                    <h3>T-Shirt chạy bộ Special</h3>
+                    <img src="img/psg1 (2).jpg" alt="" width="50%">
+                    <h3>Đen/2XL</h3>
+                <select name="selectcolor" id="selectcolor">
+                    <option value="black">Đen</option>
+                    <option value="white">Trắng</option>
+                </select>
+                <select name="selectsize" id="selectsize">
+                    <option value="s">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="2XL">2XL</option>
+                </select>
+                <br>
+                <label for="soluong">Số lượng:</label>
+                <input type="number" id="soluong" name="quantity" value="1" min="1">
+                <p>199.000đ</p>
+                </div>
+                <div class="boxhuy">
+                    <a href="" style="text-decoration: none; font-size: large; font-family: Arial, Helvetica, sans-serif;" >x</a>
+                </div>
+                <div class="boxtop">
+                    <h3>T-Shirt Cute Cat</h3>
+                    <img src="img/psg1 (6).jpg" alt="" width="50%">
+                    <h3>Đen/2XL</h3>
+                <select name="selectcolor" id="selectcolor">
+                    <option value="black">Đen</option>
+                    <option value="white">Trắng</option>
+                </select>
+                <select name="selectsize" id="selectsize">
+                    <option value="s">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="2XL">2XL</option>
+                </select>
+                <br>
+                <label for="soluong">Số lượng:</label>
+                <input type="number" id="soluong" name="quantity" value="1" min="1">
+                <p>299.000đ</p>
+                </div>
+                
+                <div class="boxhuy">
+                    <a href="" style="text-decoration: none; font-size: large; font-family: Arial, Helvetica, sans-serif;" >x</a>
+                </div>
+            </div>
+            <div class="discount">
+                <input type="text" id="codesale" placeholder="Nhập mã giảm giá">
+                <input type="button" id="apdung" value="Áp dụng">
+            </div>
+            <hr>
+           <div class="tinhtien">
+            <p>Tạm tính :498.000đ</p>
+            <br>
+            <p>Giảm giá : 0đ</p>
+            <br>
+            <p>Phí giao hàng : 25.000đ</p>
+            <br>
+            <hr>
+            <p>Tổng : 523.000đ</p>
+            <br>
+            <hr>
+           </div>
+
+
+            
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="fist-foot">
+        <div class="noidung">
+            <h4>COOLMATE  lắng nghe bạn!</h4>
+            <p>chúng tôi luôn trân trọng và đợi nhận được mọi ý kiến đóng góp từ khách hàng
+                 để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.</p>
+                 <a href="phananh.html">ĐÓNG GÓP Ý KIẾN</a>
+        </div>
+        <div class="hotline">
+            <p>Hotline: 1900.272.373 - 028.7777.2737 </p>
+            <p>Email: namndph46708@fpt.edu.con</p>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+    </div>
+    <hr class="gach">
+    <div class="last-foot">
+        <div class="duoi">
+            <div class="content">
+                <h4>CoolClub</h4>
+                <p>Đăng ký thành viên</p>
+                <p>ưu đãi & đặc quền</p>
+            </div>
+            <div class="content">
+                <h4>Chính sách</h4>
+                <p>Chính sách đổi trả 60 ngày</p>
+                <p>Chính sách khuyến mãi</p>
+            </div>
+            <div class="content">
+                <h4>Chăm sóc khách hàng</h4>
+                <p>hỏi đáp -FAQs</p>
+                <p>Trải nghiệm mua sắm</p>
+            </div>
+            <div class="content">
+                <h4>tài liệu - tuyển dụng</h4>
+                <p>Tuyển dụng</p>
+                <p>Đăng ký bản quyền</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

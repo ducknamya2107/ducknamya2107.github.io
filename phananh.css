@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(6,8,7);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 40px;
+}
+.logo img{
+    color: white;
+}
+.menu{
+    display: flex;
+   
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+    padding: 39px;
+    
+}
+.menu a:hover{
+    background-color: rgb(82,82,82);
+}
+.list-icon{
+    display: flex;
+    padding: 30px;
+    margin: 5px;
+}
+
+.search{
+    margin-right: 10px;
+}
+.search-bar{
+    background-color: aliceblue;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.search-bar a{
+    text-decoration: none;
+    font-size: small;
+}
+.search-bar a:hover{
+    color: darkgrey;
+}
+.user{
+    margin-right: 10px;
+}
+
+/* main */
+
+.choes{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.choes-items{
+    position: relative;
+    float: left;
+ 
+    width: 100%;
+    height: 100%;
+    border-right: 2px double black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "reasion1 reasion2"
+    "reasion3 reasion4"
+    "reasion5 reasion6"
+    ;
+}
+.reasion{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 80%;
+    height: 50%;
+}
+.reasion p{
+    margin: 8% 5% ;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.reasion input{
+    width: 80%;
+    height: 40%;
+    margin-left: 8%;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.reasion1{
+    grid-area: reasion1;
+}
+.reasion2{
+    grid-area: reasion2;
+}
+.reasion3{
+    grid-area: reasion3;
+}
+.reasion4{
+    grid-area: reasion4;
+}
+.reasion5{
+    grid-area: reasion5;
+}
+.reasion6{
+    grid-area: reasion6;
+}
+.write{
+    position: absolute;
+    float: right;
+    margin-left: 55%;
+}
+.text{
+    width: 400px;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.write .submit{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border: solid 2px black;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 13%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.submit a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    
+}
+.submit:hover{
+    background-color: rgb(64, 63, 63);
+}
+
+/* footer */
+footer{
+    margin-top: 20px;
+    background-color: black;
+}
+.fist-foot{
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.noidung{
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 80%;
+    width: 25%;
+    
+}
+.noidung h4{
+    margin: 0 10px 10px 0;
+    color: white;
+    font-size: 21px;
+}
+.noidung p{ 
+    margin: 0 10px 20px 0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.noidung a{
+    padding: 10px 20px;
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.noidung a:hover{
+    background-color: rgb(37, 37, 135);
+}
+.hotline{
+   margin-top: 40px;
+}
+.hotline p{
+    color: white;
+    font-weight: bolder;
+}
+.icons{
+    color: white;
+    width: 20%;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.icons i{
+   margin: 10px;
+   font-size: 30px;
+}
+
+.last-foot{
+    width: auto;
+    height: 150px; 
+}
+.gach{
+    margin-left: 80px;
+    width: 85%;
+}
+.duoi{
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+    width: 80%;
+}
+.content{
+    margin-top: 20px;
+}
+.content h4{
+    margin-bottom: 20px;
+    color: white;
+}
+.content p {
+    margin-top: 10px;
+    color: white;
+}
+.last{
+
+    width: auto;
+    height: 100px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.last .last-icon{
+    margin-right: 70px;
+}
+.last-icon img{
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+}
+

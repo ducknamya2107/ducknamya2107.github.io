@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(6,8,7);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 40px;
+}
+.logo img{
+    color: white;
+}
+.menu{
+    display: flex;
+   
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+    padding: 39px;
+    
+}
+.menu a:hover{
+    background-color: rgb(82,82,82);
+}
+.list-icon{
+    display: flex;
+    padding: 30px;
+    margin: 5px;
+}
+
+.search{
+    margin-right: 10px;
+}
+.search-bar{
+    background-color: aliceblue;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.search-bar a{
+    text-decoration: none;
+    font-size: small;
+}
+.search-bar a:hover{
+    color: darkgrey;
+}
+.user{
+    margin-right: 10px;
+}
+/* menu */
+.ct-sanpham{
+    display: contents;
+    float: left;
+    position: relative;
+}
+.img-sp{
+    width: 40%;
+    height: 700px;
+    background-image: url(img/sp_c4.jpg);
+    background-size: 90% 100%;
+    margin-left: 150px;
+    display: flex;
+    
+}
+.img-sp .imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.img-sp .imgs img{
+    margin: 15px 10px 10px 10px;
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.aside{
+    position: absolute;
+    float: right;
+    margin-left: 50%;
+}
+.aside h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.aside p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.aside button{
+    background-color: #c90000;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 75px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.star{
+    margin: 10px 0 ;
+    color: orange;
+    font-size: 20px;
+}
+
+.color-sp-1{
+    display: flex;
+    
+}
+.color-sp-1 .white-sp{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-image: url(img/colorTrang_1A2.avif);
+    background-position: 50%;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.color-sp-1 .white-sp:hover{
+    border: solid 2px blue;
+}
+.color-sp-1 .black-sp{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-image: url(img/mau-den.avif);
+    background-position: 50%;
+    border-radius: 15px;
+    
+    box-sizing: border-box; 
+    margin-right: 10px;
+}
+.color-sp-1 .black-sp:hover{
+    border: solid 2px blue;
+}
+.color-sp-1 .gray{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-image: url(img/xam_dam.jpg);
+    background-position: 50%;
+    border-radius: 15px;
+    box-sizing: border-box; 
+}
+.color-sp-1 .gray:hover{
+    border: solid 2px blue;
+}
+.size{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.size .size-M{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+.size .size-L{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+.size .size-XL{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.size .size-2XL{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+.size .size-3XL{
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dathang{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.dathang .number{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 20px;
+    text-align: center;
+}
+.dathang .shop{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.dathang .shop i{
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.shop:hover{
+    background-color: darkgray;
+}
+.special{
+    margin-top: 50px;
+}
+.special h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.special p{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.box-shirt img{
+    border-radius: 20px;
+ }
+ .box-shirt img:hover{
+     box-shadow: rgb(107, 86, 86) 3px 3px 3px 3px;
+ }
+ .list-sp{
+     display: flex;
+     justify-content: space-between;
+ }
+ .color-sp{
+     display: flex;
+     justify-content: center;
+ }
+ .color-sp .white{
+     margin-top: 10px;
+     width: 70px;
+     height: 40px;
+     background-image: url(img/colorTrang_1A2.avif);
+     background-position: 50%;
+     border-radius: 15px;
+     margin-right: 10px;
+ }
+ .color-sp .white:hover{
+     border: solid 2px blue;
+ }
+ .color-sp .black{
+     margin-top: 10px;
+     width: 70px;
+     height: 40px;
+     background-image: url(img/mau-den.avif);
+     background-position: 50%;
+     border-radius: 15px;
+     
+     box-sizing: border-box; 
+     margin-right: 10px;
+ }
+ .color-sp .black:hover{
+     border: solid 2px blue;
+ }
+ .color-sp .gray{
+     margin-top: 10px;
+     width: 70px;
+     height: 40px;
+     background-image: url(img/xam_dam.jpg);
+     background-position: 50%;
+     border-radius: 15px;
+     box-sizing: border-box; 
+ }
+ .color-sp .gray:hover{
+     border: solid 2px blue;
+ }
+ 
+
+/* footer */
+footer{
+    margin-top: 20px;
+    background-color: black;
+}
+.fist-foot{
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.noidung{
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 80%;
+    width: 25%;
+    
+}
+.noidung h4{
+    margin: 0 10px 10px 0;
+    color: white;
+    font-size: 21px;
+}
+.noidung p{ 
+    margin: 0 10px 20px 0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.noidung a{
+    padding: 10px 20px;
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.noidung a:hover{
+    background-color: rgb(37, 37, 135);
+}
+.hotline{
+   margin-top: 40px;
+}
+.hotline p{
+    color: white;
+    font-weight: bolder;
+}
+.icons{
+    color: white;
+    width: 20%;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.icons i{
+   margin: 10px;
+   font-size: 30px;
+}
+
+.last-foot{
+    width: auto;
+    height: 150px; 
+}
+.gach{
+    margin-left: 80px;
+    width: 85%;
+}
+.duoi{
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+    width: 80%;
+}
+.content{
+    margin-top: 20px;
+}
+.content h4{
+    margin-bottom: 20px;
+    color: white;
+}
+.content p {
+    margin-top: 10px;
+    color: white;
+}
+.last{
+
+    width: auto;
+    height: 100px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.last .last-icon{
+    margin-right: 70px;
+}
+.last-icon img{
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+}
+
